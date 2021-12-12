@@ -29,6 +29,13 @@ popular among Racketeers as well.
        provides thorough syntax highlighting and DrRacket-style REPL
        and buffer execution support for Emacs.
 
+       Strengths 
+       Weaknesses
+Documentation support ?
+What does DrRacket style mean and how does is compare to other repl options under eMacs
+ Back end server and advantages
+Relationship to racket LSP server
+
        Racket mode can be installed via @hyperlink["https://melpa.org/"]{MELPA}
        or manually from the Github repository.}
 
@@ -36,6 +43,10 @@ popular among Racketeers as well.
        extension of Emacs's @tt{scheme-mode} that provides enhanced
        support for Racket, including highlighting and indentation of
        Racket-specific forms, and documentation integration.
+
+
+       Strengths 
+       Weaknesses
 
        Quack is included in the Debian and Ubuntu repositories as part
        of the @tt{emacs-goodies-el} package. A Gentoo port is also
@@ -51,6 +62,9 @@ popular among Racketeers as well.
        other nicely. More information is available in the
        @hyperlink["http://www.nongnu.org/geiser/"]{Geiser manual}.
 
+       Strengths 
+       Weaknesses
+
        Debian and Ubuntu packages for Geiser are available under the
        name @tt{geiser}.}
 
@@ -64,11 +78,19 @@ popular among Racketeers as well.
        @hyperlink["http://www.neilvandyke.org/scribble-emacs/"]{Scribble
        Mode}.
 
+Use with which packages that don't have documentation
+
        In addition, @tt{texinfo-mode} (included with GNU Emacs) and
         plain text modes work well when editing Scribble
         documents. The Racket major modes above are not really suited
         to this task, given how different Scribble's syntax is from
         Racket's.}
+
+Scribble?
+Rhombus?
+Typed racket?
+
+
 
 ]
 
